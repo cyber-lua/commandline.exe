@@ -6,14 +6,14 @@ How to use
 > echo {string}
 > returns the string
 
-> Edit {path} {string}, Read {path}, Append {path} {string}, remove {path}
-> Edit changes the text file at the specified path
-> Read returns the text file at the path
-> Append add the text to the end of the text file at the specified path
-> Remove deletes the file at the specified path
+> edit {path} {string}, read {path}, append {path} {string}, remove {path} \n
+> Edit changes the text file at the specified path \n
+> Read returns the text file at the path \n
+> Append add the text to the end of the text file at the specified path \n
+> Remove deletes the file at the specified path \n
 
-> Lock {password}
+> lock {password}
 > Locks the terminal until the password is entered
 
-> Help
+> help
 > Opens the help menu (i forgot to add embed to that)
